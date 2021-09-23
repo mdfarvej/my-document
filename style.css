@@ -121,10 +121,11 @@
     text-shadow: 3px 4px 5px rgb(10, 141, 158);
     font-size: 23px;
 }
+
+        /***************** hr *****************/
 .container-hr{
     padding: 50px 20px;
 }
-
 .container-hr hr{
     height: 100%;
     border-right: 1px solid rgb(224, 222, 222);
