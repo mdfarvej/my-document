@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/************** Header Part *****************/
+
+.headerPart{
+    width: 98%;
+    margin: 0 auto;
+    height: 280px;
+    background-color: #22b6d8;
+}
+
+.imagePart{
+    width: 280px;
+    height: 280px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.headerPart .imagePart img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+ .textPart{
+    width: 50%;
+    height: 100%;
+    color: white;
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.headerPart .textPart h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.headerPart .textPart p{
+    margin-top: 4px;
+    color: blue;
+    letter-spacing: 2px;
+}
+
+/**************** body part **********************/
+
+.bodypart{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.container-left{
+    padding: 50px 20px 30px 80px;
+    text-align: justify;
+    flex: 2;
+}
+
+/*********************** Contact Details *******************************/
+
+.contact{
+    margin-bottom: 50px;
+}
+
+.container-left hr{
+    width: 130px;
+    border-bottom: 3px solid rgb(224, 222, 222);
+}
+.container-left h2{
+    color: #22b6d8;
+}
+.container-left .run-one{
+    margin-top: 10px;
+    display: flex;
+}
+
+.icon-part{
+    width: 40px;
+    align-items: center;
+}
+.icon-part i{
+    font-size: 30px;
+    color: #22b6d8;
+}
+ .text-part{
+    width: 90%;
+    float: left;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+}
+
+
+/*********************** Social Media *******************************/
+
+.social-media hr{
+    width: 177px;
+    border-bottom: 3px solid rgb(224, 222, 222);
+}
+.run-one a{
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+.run-one a:hover{
+    text-shadow: 3px 4px 5px rgb(10, 141, 158);
+    font-size: 23px;
+}
+
+
+    /*************************** About and Skill ***************************/
+
+.container-right{
+    flex: 4;
+    padding: 50px 20px 30px 80px;
+    text-align: justify;
+}
+
+    /*************************** About ***************************/
+
+.about{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container-right h2{
+    color: #22b6d8;
+}
+.about hr{
+    width: 128px;
+    border-bottom: 3px solid rgb(224, 222, 222);
+}
+
+.about p{
+    margin-top: 10px;
+    font-size: 18px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+    /*************************** Skill ***************************/
+
+.skill{
+    width: 100%;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+.skill hr{
+    width: 90px;
+    border-bottom: 3px solid rgb(224, 222, 222);
+}
+.skill ul{
+    padding-left: 22px;
+    padding-top: 15px;
+    list-style-type: square;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+    /*************************** Table ***************************/
+table{
+    border: 1px solid black;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tablePart h2{
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+th{
+    font-size: 20px;
+    border: 1px solid black;
+}
+tr,td{
+border: 1px solid black;
+font-size: 18px;
+}
+        /************** Footer ************/
+ .footer{
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+}
+caption{
+    margin-bottom: 5px;
+}
+
+
